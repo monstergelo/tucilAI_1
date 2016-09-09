@@ -5185,48 +5185,36 @@
 <!-------------------------------------------------------------------------------------------------------------------->
 <!-- First Group all not same -->
 <!-------------------------------------------------------------------------------------------------------------------->
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,0</GIVEN>
-	<GIVEN>0,1</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,0</GIVEN>
-	<GIVEN>0,2</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,0</GIVEN>
-	<GIVEN>1,0</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
+
+<!-- a=0,0 b=0,1 c=0,2 
+	 d=1,0 e=1,1 f=1,2
+	 g=2,0 h=2,1 i=2,2 -->
+
+<!-- a!=e --> 
 <CONSTRAINT TYPE="Equals">
 	<GIVEN>0,0</GIVEN>
 	<GIVEN>1,1</GIVEN>
 	<ARGS>complement</ARGS>
 	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
 </CONSTRAINT>
+
+<!-- a!=f -->
 <CONSTRAINT TYPE="Equals">
 	<GIVEN>0,0</GIVEN>
 	<GIVEN>1,2</GIVEN>
 	<ARGS>complement</ARGS>
 	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
 </CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,0</GIVEN>
-	<GIVEN>2,0</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
+
+<!-- a!=h --> 
 <CONSTRAINT TYPE="Equals">
 	<GIVEN>0,0</GIVEN>
 	<GIVEN>2,1</GIVEN>
 	<ARGS>complement</ARGS>
 	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
 </CONSTRAINT>
+
+<!-- a!=i -->
 <CONSTRAINT TYPE="Equals">
 	<GIVEN>0,0</GIVEN>
 	<GIVEN>2,2</GIVEN>
@@ -5234,42 +5222,35 @@
 	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
 </CONSTRAINT>
 
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,1</GIVEN>
-	<GIVEN>0,2</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
+<!-- a=0,0 b=0,1 c=0,2 
+	 d=1,0 e=1,1 f=1,2
+	 g=2,0 h=2,1 i=2,2 -->
+
+<!-- b!=d --> 
 <CONSTRAINT TYPE="Equals">
 	<GIVEN>0,1</GIVEN>
 	<GIVEN>1,0</GIVEN>
 	<ARGS>complement</ARGS>
 	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
 </CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,1</GIVEN>
-	<GIVEN>1,1</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
+
+<!-- b!=f --> 
 <CONSTRAINT TYPE="Equals">
 	<GIVEN>0,1</GIVEN>
 	<GIVEN>1,2</GIVEN>
 	<ARGS>complement</ARGS>
 	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
 </CONSTRAINT>
+
+<!-- b!=g -->
 <CONSTRAINT TYPE="Equals">
 	<GIVEN>0,1</GIVEN>
 	<GIVEN>2,0</GIVEN>
 	<ARGS>complement</ARGS>
 	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
 </CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,1</GIVEN>
-	<GIVEN>2,1</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
+
+<!--b!=i -->
 <CONSTRAINT TYPE="Equals">
 	<GIVEN>0,1</GIVEN>
 	<GIVEN>2,2</GIVEN>
@@ -5277,591 +5258,72 @@
 	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
 </CONSTRAINT>
 
+<!-- a=0,0 b=0,1 c=0,2 
+	 d=1,0 e=1,1 f=1,2
+	 g=2,0 h=2,1 i=2,2 -->
+
+<!-- c!=d -->
 <CONSTRAINT TYPE="Equals">
 	<GIVEN>0,2</GIVEN>
 	<GIVEN>1,0</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,2</GIVEN>
-	<GIVEN>1,1</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,2</GIVEN>
-	<GIVEN>1,2</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,2</GIVEN>
-	<GIVEN>2,0</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,2</GIVEN>
-	<GIVEN>2,1</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,2</GIVEN>
-	<GIVEN>2,2</GIVEN>
 	<ARGS>complement</ARGS>
 	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
 </CONSTRAINT>
 
+<!-- c!=e -->
 <CONSTRAINT TYPE="Equals">
-	<GIVEN>1,0</GIVEN>
+	<GIVEN>0,2</GIVEN>
 	<GIVEN>1,1</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,0</GIVEN>
-	<GIVEN>1,2</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,0</GIVEN>
-	<GIVEN>2,0</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,0</GIVEN>
-	<GIVEN>2,1</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,0</GIVEN>
-	<GIVEN>2,2</GIVEN>
 	<ARGS>complement</ARGS>
 	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
 </CONSTRAINT>
 
+<!-- c!=g -->
 <CONSTRAINT TYPE="Equals">
-	<GIVEN>1,1</GIVEN>
-	<GIVEN>1,2</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,1</GIVEN>
+	<GIVEN>0,2</GIVEN>
 	<GIVEN>2,0</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,1</GIVEN>
-	<GIVEN>2,1</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,1</GIVEN>
-	<GIVEN>2,2</GIVEN>
 	<ARGS>complement</ARGS>
 	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
 </CONSTRAINT>
 
+<!-- c!=h -->
 <CONSTRAINT TYPE="Equals">
-	<GIVEN>1,2</GIVEN>
-	<GIVEN>2,0</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,2</GIVEN>
+	<GIVEN>0,2</GIVEN>
 	<GIVEN>2,1</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,2</GIVEN>
-	<GIVEN>2,2</GIVEN>
 	<ARGS>complement</ARGS>
 	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
 </CONSTRAINT>
 
+<!-- a = 0,0 b = 0,1 c = 0,2 
+	 d = 1,0 e = 1,1 f = 1,2
+	 g = 2,0 h = 2,1 i=2,2 -->
+
+<!-- d!=h -->
 <CONSTRAINT TYPE="Equals">
-	<GIVEN>2,0</GIVEN>
+	<GIVEN>1,0</GIVEN>
 	<GIVEN>2,1</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>2,0</GIVEN>
-	<GIVEN>2,2</GIVEN>
 	<ARGS>complement</ARGS>
 	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
 </CONSTRAINT>
 
+<!-- d != i -->
 <CONSTRAINT TYPE="Equals">
+	<GIVEN>1,0</GIVEN>
 	<GIVEN>2,1</GIVEN>
-	<GIVEN>2,2</GIVEN>
 	<ARGS>complement</ARGS>
 	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
 </CONSTRAINT>
+
+
+
 <!-------------------------------------------------------------------------------------------------------------------->
 <!-- Second Group all not same -->
 <!-------------------------------------------------------------------------------------------------------------------->
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,3</GIVEN>
-	<GIVEN>0,4</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,4</GIVEN>
-	<GIVEN>0,5</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,3</GIVEN>
-	<GIVEN>1,3</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,3</GIVEN>
-	<GIVEN>1,4</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,3</GIVEN>
-	<GIVEN>1,5
-	</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,3</GIVEN>
-	<GIVEN>2,3</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,3</GIVEN>
-	<GIVEN>2,4</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,3</GIVEN>
-	<GIVEN>2,5</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
 
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,4</GIVEN>
-	<GIVEN>0,5</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,4</GIVEN>
-	<GIVEN>1,3</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,4</GIVEN>
-	<GIVEN>1,4</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,4</GIVEN>
-	<GIVEN>1,5</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,4</GIVEN>
-	<GIVEN>2,3</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,4</GIVEN>
-	<GIVEN>2,4</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,4</GIVEN>
-	<GIVEN>2,5</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,5</GIVEN>
-	<GIVEN>1,3</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,5</GIVEN>
-	<GIVEN>1,4</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,5</GIVEN>
-	<GIVEN>1,5</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,5</GIVEN>
-	<GIVEN>2,3</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,5</GIVEN>
-	<GIVEN>2,4</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,5</GIVEN>
-	<GIVEN>2,5</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,3</GIVEN>
-	<GIVEN>1,4</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,3</GIVEN>
-	<GIVEN>1,5</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,3</GIVEN>
-	<GIVEN>2,3</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,3</GIVEN>
-	<GIVEN>2,4</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,3</GIVEN>
-	<GIVEN>2,5</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,4</GIVEN>
-	<GIVEN>1,5</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,4</GIVEN>
-	<GIVEN>2,3</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,4</GIVEN>
-	<GIVEN>2,4</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,4</GIVEN>
-	<GIVEN>2,5</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,5</GIVEN>
-	<GIVEN>2,3</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,5</GIVEN>
-	<GIVEN>2,4</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,5</GIVEN>
-	<GIVEN>2,5</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>2,3</GIVEN>
-	<GIVEN>2,4</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>2,3</GIVEN>
-	<GIVEN>2,5</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>2,4</GIVEN>
-	<GIVEN>2,5</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
 <!-------------------------------------------------------------------------------------------------------------------->
 <!-- Third Group all not same -->
 <!-------------------------------------------------------------------------------------------------------------------->
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,6</GIVEN>
-	<GIVEN>0,7</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,7</GIVEN>
-	<GIVEN>0,8</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,6</GIVEN>
-	<GIVEN>1,6</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,6</GIVEN>
-	<GIVEN>1,7</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,6</GIVEN>
-	<GIVEN>1,8
-	</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,6</GIVEN>
-	<GIVEN>2,6</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,6</GIVEN>
-	<GIVEN>2,7</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,6</GIVEN>
-	<GIVEN>2,8</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
 
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,7</GIVEN>
-	<GIVEN>0,8</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,4</GIVEN>
-	<GIVEN>1,3</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,4</GIVEN>
-	<GIVEN>1,4</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,4</GIVEN>
-	<GIVEN>1,5</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,4</GIVEN>
-	<GIVEN>2,3</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,4</GIVEN>
-	<GIVEN>2,4</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,4</GIVEN>
-	<GIVEN>2,5</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,5</GIVEN>
-	<GIVEN>1,3</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,5</GIVEN>
-	<GIVEN>1,4</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,5</GIVEN>
-	<GIVEN>1,5</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,5</GIVEN>
-	<GIVEN>2,3</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,5</GIVEN>
-	<GIVEN>2,4</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>0,5</GIVEN>
-	<GIVEN>2,5</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,3</GIVEN>
-	<GIVEN>1,4</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,3</GIVEN>
-	<GIVEN>1,5</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,3</GIVEN>
-	<GIVEN>2,3</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,3</GIVEN>
-	<GIVEN>2,4</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,3</GIVEN>
-	<GIVEN>2,5</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,4</GIVEN>
-	<GIVEN>1,5</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,4</GIVEN>
-	<GIVEN>2,3</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,4</GIVEN>
-	<GIVEN>2,4</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,4</GIVEN>
-	<GIVEN>2,5</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,5</GIVEN>
-	<GIVEN>2,3</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,5</GIVEN>
-	<GIVEN>2,4</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>1,5</GIVEN>
-	<GIVEN>2,5</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>2,3</GIVEN>
-	<GIVEN>2,4</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>2,3</GIVEN>
-	<GIVEN>2,5</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
-
-<CONSTRAINT TYPE="Equals">
-	<GIVEN>2,4</GIVEN>
-	<GIVEN>2,5</GIVEN>
-	<ARGS>complement</ARGS>
-	<PROPERTY>position = (7679.8, 5323.0005)</PROPERTY>
-</CONSTRAINT>
 <!-------------------------------------------------------------------------------------------------------------------->
 <!-- Fourth Group all not same -->
 <!-------------------------------------------------------------------------------------------------------------------->
